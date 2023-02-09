@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor0: #6c0101;
+    --cor1: #9d0303;
+    --cor2: #c60404;
+    --cor3: #ff0000;
+    --cor4: #fd6060;
+    --cor5: #fea4a4;
+    --cor6: #f4cbcb;
+}
+#container{
+    background-color: var(--cor6);
+    width: 850px;
+    height: 1400px;
+    margin: auto;
+}
+header{
+    margin-bottom: 20px;
+}
+header ul{
+    display: inline-flex;
+    background-color: var(--cor1);
+    list-style-position: inside;
+    width: 830px;
+    padding: 10px;
+}
+header a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}  
+header a:hover{
+    background-color: var(--cor0);
+    text-decoration: underline;
+}
+ 
+.titulo{
+    padding-left: 10px;
+    margin-bottom: 20px;
+} 
+.titulo h1{
+    background-color: var(--cor1);
+    color: var(--cor6);text-shadow: 5px 2px 3px black;
+    padding-left: 10px;
+}
+.titulo img{
+    padding-right: 10px;
+    padding-top: 20px;
+    display: block;
+    float: left;
+}
+.descrição{
+    text-align: justify;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+article{
+    width: 400px;
+    margin: 10px;
+}
+article h2{
+    padding-bottom: 10px;
+    background-color: var(--cor1);
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: var(--cor5);text-shadow: 5px 2px 3px black;
+}
+article .imagem1 img{
+    padding-bottom: 5px;
+    float: left;
+    padding-right: 5px;
+}
+.texto1{
+    text-align: justify;
+}
+article .imagem2 img{
+    padding-bottom: 0px;
+    float: left;
+    padding-right: 5px;
+}
+.texto2{
+    text-align: justify;
+}
+article .texto3{
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#main {
+   display: inline-flex;
+}
+.container{
+    list-style-position: inside;
+    padding: 20px;
+    font-size: 20px;
+}
+.container li{
+    padding-bottom: 10px;
+    color: var(--cor0);
+}
+.container ol{
+    background-color: var(--cor5);
+    border-radius: 10px;
+    padding: 5px;
+}
+footer{
+    background-color: var(--cor0);
+    color: var(--cor5);
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
